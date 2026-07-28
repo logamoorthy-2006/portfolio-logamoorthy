@@ -1,7 +1,8 @@
 # 🌐 Developer Portfolio — Logamoorthy D
 
-[![Portfolio Status](https://img.shields.io/badge/Portfolio-Active-00f2fe?style=for-the-badge&logo=react)](https://github.com/logamoorthy-2006/portfolio-logamoorthy)
-[![Live Demo](https://img.shields.io/badge/Featured_App-My_Work_Hub-8a2be2?style=for-the-badge&logo=netlify)](https://my-work-hub-08.netlify.app/)
+[![Live Portfolio](https://img.shields.io/badge/Live_Portfolio-Netlify-00f2fe?style=for-the-badge&logo=netlify)](https://portfolio-logamoorthy.netlify.app/)
+[![GitHub Repo](https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github)](https://github.com/logamoorthy-2006/portfolio-logamoorthy)
+[![Featured App](https://img.shields.io/badge/Featured_App-My_Work_Hub-8a2be2?style=for-the-badge&logo=netlify)](https://my-work-hub-08.netlify.app/)
 
 A modern, high-performance, cyber-tech glassmorphism portfolio website built for **Logamoorthy D** — B.E. Computer Science (Cyber Security) Student & Full Stack Developer Intern.
 
@@ -64,10 +65,11 @@ Open your browser at `http://localhost:5050` (or `http://localhost:3000`).
 
 ---
 
-## 🔗 **Featured Project Link**
+## 🔗 **Live Links & Projects**
 
-- **My Work Hub (Live App)**: [my-work-hub-08.netlify.app](https://my-work-hub-08.netlify.app/)
-- **My Work Hub (GitHub)**: [github.com/logamoorthy-2006/my_work_hub](https://github.com/logamoorthy-2006/my_work_hub)
+- 🌐 **Live Portfolio Website**: [portfolio-logamoorthy.netlify.app](https://portfolio-logamoorthy.netlify.app/)
+- 🚀 **My Work Hub (Live App)**: [my-work-hub-08.netlify.app](https://my-work-hub-08.netlify.app/)
+- 💻 **My Work Hub (GitHub)**: [github.com/logamoorthy-2006/my_work_hub](https://github.com/logamoorthy-2006/my_work_hub)
 
 ---
 
