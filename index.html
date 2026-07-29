@@ -543,55 +543,31 @@
 
   <!-- Resume Preview Modal -->
   <div class="modal-overlay" id="resume-modal">
-    <div class="modal-box">
-      <button class="modal-close" id="close-modal-btn"><i class="fa-solid fa-xmark"></i></button>
-      
-      <div style="border-bottom: 1px solid var(--border-light); padding-bottom: 1.5rem; margin-bottom: 1.5rem;">
-        <h2 style="font-size: 1.8rem; color: var(--accent-cyan);">LOGAMOORTHY D</h2>
-        <p style="color: var(--text-sub);">logamoorthy143@gmail.com | +91 9025825627 | Chennai, India</p>
+    <div class="modal-box modal-lg">
+      <div class="modal-header">
+        <div class="modal-title-group">
+          <i class="fa-solid fa-file-pdf modal-title-icon"></i>
+          <div>
+            <h3 class="modal-title">Logamoorthy D — Official Resume</h3>
+            <p class="modal-subtitle">PDF Document Preview (1 Page)</p>
+          </div>
+        </div>
+        <button class="modal-close" id="close-modal-btn" aria-label="Close Modal">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
       </div>
 
-      <div style="margin-bottom: 1.5rem;">
-        <h4 style="color: var(--accent-blue); text-transform: uppercase; font-size: 0.85rem; letter-spacing: 1px;">Profile Summary</h4>
-        <p style="color: var(--text-sub); font-size: 0.95rem; margin-top: 0.3rem;">
-          Enthusiastic fresher with basic knowledge of Java, Python, and frontend development. Looking for an opportunity to apply my skills and grow in the IT field.
-        </p>
+      <div class="modal-body pdf-body">
+        <iframe src="resume.pdf#toolbar=0&navpanes=0" class="pdf-frame" title="Logamoorthy D Resume PDF"></iframe>
       </div>
 
-      <div style="margin-bottom: 1.5rem;">
-        <h4 style="color: var(--accent-blue); text-transform: uppercase; font-size: 0.85rem; letter-spacing: 1px;">Education</h4>
-        <p style="font-weight: 600; margin-top: 0.3rem;">B.E COMPUTER SCIENCE (CYBER SECURITY)</p>
-        <p style="color: var(--text-sub); font-size: 0.9rem;">Prince Dr. K. Vasudevan College of Engineering and Technology (2023 – 2027) • Ponmar, Chennai</p>
-      </div>
-
-      <div style="margin-bottom: 1.5rem;">
-        <h4 style="color: var(--accent-blue); text-transform: uppercase; font-size: 0.85rem; letter-spacing: 1px;">Experience</h4>
-        <p style="font-weight: 600; margin-top: 0.3rem;">INTERN - FULL STACK DEVELOPER (06/2025 – 07/2025)</p>
-        <ul style="color: var(--text-sub); font-size: 0.9rem; margin-left: 1.2rem; margin-top: 0.3rem;">
-          <li>Worked on web development using Python, HTML, CSS, and JavaScript</li>
-          <li>Developed basic frontend and backend features</li>
-          <li>Fixed bugs and improved code</li>
-          <li>Learned real-time project development</li>
-        </ul>
-      </div>
-
-      <div style="margin-bottom: 1.5rem;">
-        <h4 style="color: var(--accent-blue); text-transform: uppercase; font-size: 0.85rem; letter-spacing: 1px;">Technical Skills & Projects</h4>
-        <p style="color: var(--text-sub); font-size: 0.9rem; margin-top: 0.3rem;">
-          <strong>Projects:</strong> My Work Hub (Expo, TypeScript, Node.js)<br>
-          <strong>Languages:</strong> Java, JavaScript, Python<br>
-          <strong>Frontend:</strong> HTML, CSS, DOM Manipulation<br>
-          <strong>Tools:</strong> VS Code, Git (basic)
-        </p>
-      </div>
-
-      <div style="display: flex; gap: 1rem; margin-top: 2rem; flex-wrap: wrap;">
+      <div class="modal-footer">
         <a href="resume.pdf" download="Logamoorthy_D_Resume.pdf" class="btn btn-primary">
           <i class="fa-solid fa-download"></i> Download PDF Resume
         </a>
-        <button class="btn btn-outline" onclick="window.print()">
-          <i class="fa-solid fa-print"></i> Print / Save Browser View
-        </button>
+        <a href="resume.pdf" target="_blank" class="btn btn-outline">
+          <i class="fa-solid fa-up-right-from-square"></i> Open in New Tab
+        </a>
       </div>
     </div>
   </div>

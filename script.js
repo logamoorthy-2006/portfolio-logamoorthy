@@ -258,6 +258,12 @@ function initResumeModal() {
       modal.classList.remove('active');
     }
   });
+
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape' && modal.classList.contains('active')) {
+      modal.classList.remove('active');
+    }
+  });
 }
 
 /* --------------------------------------------------------------------------
