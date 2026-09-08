@@ -1,8 +1,13 @@
 {
   "hero": {
+    "internshipCount": "1",
     "badge": "Available for IT & Development Opportunities",
-    "name": "Logamoorthy D",
+    "institutionShort": "Prince Dr. K. Vasudevan College",
+    "resumePdf": "resume.pdf",
     "bio": "Enthusiastic fresher with hands-on full stack web development experience and a background in Cyber Security. Creator of My Work Hub, passionate about building secure, responsive web applications and exploring modern technologies.",
+    "graduationYear": "2027",
+    "name": "Bhuvanesh",
+    "languagesCount": "3",
     "roles": [
       "Full Stack Developer Intern",
       "Creator of My Work Hub",
@@ -10,12 +15,7 @@
       "Python & Java Developer",
       "Frontend & UI/UX Enthusiast"
     ],
-    "graduationYear": "2027",
-    "internshipCount": "1",
-    "languagesCount": "3",
-    "profileRole": "B.E Cyber Security | Full Stack Developer",
-    "institutionShort": "Prince Dr. K. Vasudevan College",
-    "resumePdf": "resume.pdf"
+    "profileRole": "B.E Cyber Security | Full Stack Developer"
   },
   "contact": {
     "email": "logamoorthy143@gmail.com",
@@ -26,8 +26,14 @@
     "summary1": "I am a motivated B.E. Computer Science (Cyber Security) student with practical experience as a Full Stack Developer Intern. I possess strong foundational knowledge in Java, Python, HTML, CSS, JavaScript, and DOM manipulation.",
     "summary2": "My objective is to contribute effectively to real-world IT & software engineering teams while constantly learning and adapting to next-gen technologies.",
     "languagesSpoken": [
-      { "name": "English", "proficiency": "Professional" },
-      { "name": "Tamil", "proficiency": "Native" }
+      {
+        "name": "English",
+        "proficiency": "Professional"
+      },
+      {
+        "name": "Tamil",
+        "proficiency": "Native"
+      }
     ],
     "education": {
       "degree": "B.E Computer Science (Cyber Security)",
@@ -47,7 +53,13 @@
         "Performed code refactoring, fixed UI/logic bugs, and improved system performance.",
         "Gained practical knowledge in real-time project lifecycle workflows, DOM manipulation, and collaborative debugging."
       ],
-      "tags": ["Python", "JavaScript", "HTML5 & CSS3", "Full Stack Development", "Bug Fixing"]
+      "tags": [
+        "Python",
+        "JavaScript",
+        "HTML5 & CSS3",
+        "Full Stack Development",
+        "Bug Fixing"
+      ]
     }
   ],
   "projects": [
@@ -56,21 +68,45 @@
       "title": "My Work Hub",
       "subtitle": "Personal Productivity & Management Suite",
       "description": "A production-ready full-stack productivity foundation featuring Smart Todo Management, Personal Finance Tracker, Bike Maintenance Manager, Calendar & Routine Scheduler, and Analytics Dashboard.",
-      "tags": ["React Native / Expo", "TypeScript", "Node.js & Express", "Zustand", "NativeWind"],
+      "tags": [
+        "React Native / Expo",
+        "TypeScript",
+        "Node.js & Express",
+        "Zustand",
+        "NativeWind"
+      ],
       "liveUrl": "https://my-work-hub-08.netlify.app/",
       "githubUrl": "https://github.com/logamoorthy-2006/my_work_hub"
     }
   ],
   "skills": {
     "programmingLanguages": [
-      { "name": "Python", "progress": "80%" },
-      { "name": "JavaScript (ES6+)", "progress": "75%" },
-      { "name": "Java", "progress": "70%" }
+      {
+        "name": "Python",
+        "progress": "80%"
+      },
+      {
+        "name": "JavaScript (ES6+)",
+        "progress": "75%"
+      },
+      {
+        "name": "Java",
+        "progress": "70%"
+      }
     ],
     "frontendDevelopment": [
-      { "name": "HTML5 & CSS3", "progress": "85%" },
-      { "name": "DOM Manipulation", "progress": "80%" },
-      { "name": "Responsive UI Design", "progress": "85%" }
+      {
+        "name": "HTML5 & CSS3",
+        "progress": "85%"
+      },
+      {
+        "name": "DOM Manipulation",
+        "progress": "80%"
+      },
+      {
+        "name": "Responsive UI Design",
+        "progress": "85%"
+      }
     ],
     "tools": [
       "VS Code",
