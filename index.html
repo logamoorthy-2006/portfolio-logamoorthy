@@ -11,6 +11,9 @@
   
   <!-- Stylesheet -->
   <link rel="stylesheet" href="style.css">
+
+  <!-- Netlify Identity Widget -->
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 <body>
 
@@ -57,11 +60,11 @@
       <div class="hero-content">
         <div class="hero-badge">
           <span class="badge-dot"></span>
-          <span class="badge-text">Available for IT & Development Opportunities</span>
+          <span class="badge-text" id="hero-badge-text">Available for IT & Development Opportunities</span>
         </div>
 
         <h1 class="hero-title">
-          Hi, I'm <span class="text-gradient">Logamoorthy D</span>
+          Hi, I'm <span class="text-gradient" id="hero-name">Logamoorthy D</span>
         </h1>
 
         <div class="typewriter-wrapper">
@@ -69,7 +72,7 @@
           <span class="typewriter-text" id="typewriter"></span>
         </div>
 
-        <p class="hero-bio">
+        <p class="hero-bio" id="hero-bio">
           Enthusiastic fresher with hands-on full stack web development experience and a background in Cyber Security. Creator of <strong>My Work Hub</strong>, passionate about building secure, responsive web applications and exploring modern technologies.
         </p>
 
@@ -77,7 +80,7 @@
           <a href="#projects" class="btn btn-primary">
             <i class="fa-solid fa-rocket"></i> Featured Projects
           </a>
-          <a href="resume.pdf" download="Logamoorthy_D_Resume.pdf" class="btn btn-outline" title="Download PDF Resume">
+          <a href="resume.pdf" download="Logamoorthy_D_Resume.pdf" class="btn btn-outline" id="hero-resume-download" title="Download PDF Resume">
             <i class="fa-solid fa-download"></i> Download Resume
           </a>
           <a href="#contact" class="btn btn-outline">
@@ -87,15 +90,15 @@
 
         <div class="hero-stats">
           <div class="stat-card">
-            <div class="stat-number"><span class="counter" data-target="2027">0</span></div>
+            <div class="stat-number"><span class="counter" data-target="2027" id="stat-grad-year">0</span></div>
             <div class="stat-label">B.E Graduation Year</div>
           </div>
           <div class="stat-card">
-            <div class="stat-number"><span class="counter" data-target="1">0</span>+</div>
+            <div class="stat-number"><span class="counter" data-target="1" id="stat-internship">0</span>+</div>
             <div class="stat-label">Full Stack Internship</div>
           </div>
           <div class="stat-card">
-            <div class="stat-number"><span class="counter" data-target="3">0</span>+</div>
+            <div class="stat-number"><span class="counter" data-target="3" id="stat-languages">0</span>+</div>
             <div class="stat-label">Core Languages (Java/Py/JS)</div>
           </div>
         </div>
@@ -111,21 +114,21 @@
             </div>
           </div>
 
-          <h3 class="card-name">Logamoorthy D</h3>
-          <p class="card-role">B.E Cyber Security | Full Stack Developer</p>
+          <h3 class="card-name" id="card-name">Logamoorthy D</h3>
+          <p class="card-role" id="card-role">B.E Cyber Security | Full Stack Developer</p>
 
           <div class="info-pills">
             <div class="info-pill">
               <i class="fa-solid fa-graduation-cap"></i>
-              <span>Prince Dr. K. Vasudevan College</span>
+              <span id="card-institution">Prince Dr. K. Vasudevan College</span>
             </div>
             <div class="info-pill">
               <i class="fa-solid fa-location-dot"></i>
-              <span>Chennai, Tamil Nadu, India</span>
+              <span id="card-location">Chennai, Tamil Nadu, India</span>
             </div>
             <div class="info-pill">
               <i class="fa-solid fa-envelope"></i>
-              <span>logamoorthy143@gmail.com</span>
+              <span id="card-email">logamoorthy143@gmail.com</span>
             </div>
           </div>
         </div>
@@ -146,16 +149,18 @@
         <!-- Profile Summary Card -->
         <div class="glass-card about-text-card">
           <h3>Profile Summary</h3>
-          <p>
-            I am a motivated B.E. Computer Science (Cyber Security) student with practical experience as a Full Stack Developer Intern. I possess strong foundational knowledge in Java, Python, HTML, CSS, JavaScript, and DOM manipulation.
-          </p>
-          <p>
-            My objective is to contribute effectively to real-world IT & software engineering teams while constantly learning and adapting to next-gen technologies.
-          </p>
+          <div id="about-summary-container">
+            <p>
+              I am a motivated B.E. Computer Science (Cyber Security) student with practical experience as a Full Stack Developer Intern. I possess strong foundational knowledge in Java, Python, HTML, CSS, JavaScript, and DOM manipulation.
+            </p>
+            <p>
+              My objective is to contribute effectively to real-world IT & software engineering teams while constantly learning and adapting to next-gen technologies.
+            </p>
+          </div>
           
           <div style="margin-top: 1.5rem;">
             <h4 style="margin-bottom: 0.8rem; font-size: 1rem; color: var(--accent-cyan);">Languages Spoken</h4>
-            <div class="tags-wrapper">
+            <div class="tags-wrapper" id="about-languages-container">
               <div class="skill-tag"><i class="fa-solid fa-language"></i> English (Professional)</div>
               <div class="skill-tag"><i class="fa-solid fa-language"></i> Tamil (Native)</div>
             </div>
@@ -163,18 +168,18 @@
         </div>
 
         <!-- Education Card -->
-        <div class="glass-card education-card">
+        <div class="glass-card education-card" id="education-card-container">
           <div class="edu-header">
             <div class="edu-icon">
               <i class="fa-solid fa-university"></i>
             </div>
             <div>
-              <div class="edu-degree">B.E Computer Science (Cyber Security)</div>
-              <div class="edu-institution">Prince Dr. K. Vasudevan College of Engineering and Technology</div>
-              <span class="edu-badge">2023 – 2027 • Ponmar, Chennai</span>
+              <div class="edu-degree" id="edu-degree">B.E Computer Science (Cyber Security)</div>
+              <div class="edu-institution" id="edu-institution">Prince Dr. K. Vasudevan College of Engineering and Technology</div>
+              <span class="edu-badge" id="edu-badge">2023 – 2027 • Ponmar, Chennai</span>
             </div>
           </div>
-          <p style="color: var(--text-sub); font-size: 0.95rem; margin-top: 1rem;">
+          <p id="edu-description" style="color: var(--text-sub); font-size: 0.95rem; margin-top: 1rem;">
             Specializing in Computer Science with a core focus on Cyber Security fundamentals, software engineering principles, algorithms, and web applications.
           </p>
         </div>
@@ -191,7 +196,7 @@
         <p class="section-subtitle">Real-world development exposure and hands-on project accomplishments.</p>
       </div>
 
-      <div class="timeline">
+      <div class="timeline" id="experience-timeline">
         <div class="timeline-item">
           <div class="timeline-dot"></div>
           <div class="glass-card">
@@ -228,7 +233,7 @@
         <p class="section-subtitle">Key full-stack web applications and software platforms developed.</p>
       </div>
 
-      <div class="projects-grid">
+      <div class="projects-grid" id="projects-grid">
         <!-- Project 1: My Work Hub -->
         <div class="glass-card project-card">
           <div class="project-banner">
@@ -276,7 +281,7 @@
         <p class="section-subtitle">Core programming languages, frontend tools, and development utilities.</p>
       </div>
 
-      <div class="skills-grid">
+      <div class="skills-grid" id="skills-grid">
         <!-- Category 1: Languages -->
         <div class="glass-card skill-category">
           <div class="category-title">
@@ -444,7 +449,7 @@
             <div class="contact-icon"><i class="fa-solid fa-location-dot"></i></div>
             <div class="contact-details">
               <div class="contact-label">Location</div>
-              <div class="contact-value">Chennai, Tamil Nadu, India</div>
+              <div class="contact-value" id="location-text">Chennai, Tamil Nadu, India</div>
             </div>
           </div>
         </div>
@@ -479,7 +484,7 @@
   <!-- Footer -->
   <footer>
     <div class="container">
-      <p>© 2026 Logamoorthy D. Crafted with passion & modern web technologies.</p>
+      <p>© 2026 Logamoorthy D. Crafted with passion & modern web technologies. • <a href="/admin/" style="color: var(--text-muted); font-size: 0.85rem; text-decoration: none;"><i class="fa-solid fa-lock"></i> CMS Admin</a></p>
     </div>
   </footer>
 
@@ -558,19 +563,32 @@
       </div>
 
       <div class="modal-body pdf-body">
-        <iframe src="resume.pdf#toolbar=0&navpanes=0" class="pdf-frame" title="Logamoorthy D Resume PDF"></iframe>
+        <iframe src="resume.pdf#toolbar=0&navpanes=0" class="pdf-frame" id="resume-frame" title="Logamoorthy D Resume PDF"></iframe>
       </div>
 
       <div class="modal-footer">
-        <a href="resume.pdf" download="Logamoorthy_D_Resume.pdf" class="btn btn-primary">
+        <a href="resume.pdf" download="Logamoorthy_D_Resume.pdf" class="btn btn-primary" id="modal-resume-download">
           <i class="fa-solid fa-download"></i> Download PDF Resume
         </a>
-        <a href="resume.pdf" target="_blank" class="btn btn-outline">
+        <a href="resume.pdf" target="_blank" class="btn btn-outline" id="modal-resume-open">
           <i class="fa-solid fa-up-right-from-square"></i> Open in New Tab
         </a>
       </div>
     </div>
   </div>
+
+  <!-- Netlify Identity Redirection Script -->
+  <script>
+    if (window.netlifyIdentity) {
+      window.netlifyIdentity.on("init", function(user) {
+        if (!user) {
+          window.netlifyIdentity.on("login", function() {
+            document.location.href = "/admin/";
+          });
+        }
+      });
+    }
+  </script>
 
   <!-- JavaScript -->
   <script src="script.js"></script>

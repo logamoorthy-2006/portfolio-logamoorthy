@@ -1,0 +1,83 @@
+{
+  "hero": {
+    "badge": "Available for IT & Development Opportunities",
+    "name": "Logamoorthy D",
+    "bio": "Enthusiastic fresher with hands-on full stack web development experience and a background in Cyber Security. Creator of My Work Hub, passionate about building secure, responsive web applications and exploring modern technologies.",
+    "roles": [
+      "Full Stack Developer Intern",
+      "Creator of My Work Hub",
+      "Cyber Security Student",
+      "Python & Java Developer",
+      "Frontend & UI/UX Enthusiast"
+    ],
+    "graduationYear": "2027",
+    "internshipCount": "1",
+    "languagesCount": "3",
+    "profileRole": "B.E Cyber Security | Full Stack Developer",
+    "institutionShort": "Prince Dr. K. Vasudevan College",
+    "resumePdf": "resume.pdf"
+  },
+  "contact": {
+    "email": "logamoorthy143@gmail.com",
+    "phone": "+91 9025825627",
+    "location": "Chennai, Tamil Nadu, India"
+  },
+  "about": {
+    "summary1": "I am a motivated B.E. Computer Science (Cyber Security) student with practical experience as a Full Stack Developer Intern. I possess strong foundational knowledge in Java, Python, HTML, CSS, JavaScript, and DOM manipulation.",
+    "summary2": "My objective is to contribute effectively to real-world IT & software engineering teams while constantly learning and adapting to next-gen technologies.",
+    "languagesSpoken": [
+      { "name": "English", "proficiency": "Professional" },
+      { "name": "Tamil", "proficiency": "Native" }
+    ],
+    "education": {
+      "degree": "B.E Computer Science (Cyber Security)",
+      "institution": "Prince Dr. K. Vasudevan College of Engineering and Technology",
+      "badge": "2023 – 2027 • Ponmar, Chennai",
+      "description": "Specializing in Computer Science with a core focus on Cyber Security fundamentals, software engineering principles, algorithms, and web applications."
+    }
+  },
+  "experience": [
+    {
+      "role": "Intern - Full Stack Developer",
+      "company": "Software Development Internship",
+      "date": "06/2025 – 07/2025 • Chennai",
+      "bullets": [
+        "Worked extensively on full-stack web development utilizing Python for backend logic alongside HTML, CSS, and JavaScript for interactive frontend UI.",
+        "Developed and integrated core frontend components and backend features for real-time web applications.",
+        "Performed code refactoring, fixed UI/logic bugs, and improved system performance.",
+        "Gained practical knowledge in real-time project lifecycle workflows, DOM manipulation, and collaborative debugging."
+      ],
+      "tags": ["Python", "JavaScript", "HTML5 & CSS3", "Full Stack Development", "Bug Fixing"]
+    }
+  ],
+  "projects": [
+    {
+      "badge": "Full Stack Platform",
+      "title": "My Work Hub",
+      "subtitle": "Personal Productivity & Management Suite",
+      "description": "A production-ready full-stack productivity foundation featuring Smart Todo Management, Personal Finance Tracker, Bike Maintenance Manager, Calendar & Routine Scheduler, and Analytics Dashboard.",
+      "tags": ["React Native / Expo", "TypeScript", "Node.js & Express", "Zustand", "NativeWind"],
+      "liveUrl": "https://my-work-hub-08.netlify.app/",
+      "githubUrl": "https://github.com/logamoorthy-2006/my_work_hub"
+    }
+  ],
+  "skills": {
+    "programmingLanguages": [
+      { "name": "Python", "progress": "80%" },
+      { "name": "JavaScript (ES6+)", "progress": "75%" },
+      { "name": "Java", "progress": "70%" }
+    ],
+    "frontendDevelopment": [
+      { "name": "HTML5 & CSS3", "progress": "85%" },
+      { "name": "DOM Manipulation", "progress": "80%" },
+      { "name": "Responsive UI Design", "progress": "85%" }
+    ],
+    "tools": [
+      "VS Code",
+      "Git (Basic)",
+      "Cyber Security Concepts",
+      "Debugging",
+      "Web Architecture"
+    ]
+  }
+}

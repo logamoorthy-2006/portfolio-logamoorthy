@@ -1,0 +1,99 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "uploads"
+public_folder: "/uploads"
+
+collections:
+  - name: "portfolio"
+    label: "Portfolio & Resume"
+    files:
+      - name: "content"
+        label: "Resume & Portfolio Content"
+        file: "data/content.json"
+        description: "Update your live portfolio and resume details. Every change automatically commits to GitHub and updates your site live."
+        fields:
+          - name: "hero"
+            label: "Hero & Profile Overview"
+            widget: "object"
+            fields:
+              - { label: "Status Badge", name: "badge", widget: "string" }
+              - { label: "Full Name", name: "name", widget: "string" }
+              - { label: "Bio Summary", name: "bio", widget: "text" }
+              - { label: "Animated Typewriter Roles", name: "roles", widget: "list" }
+              - { label: "Graduation Year", name: "graduationYear", widget: "string" }
+              - { label: "Internships Count", name: "internshipCount", widget: "string" }
+              - { label: "Languages Count", name: "languagesCount", widget: "string" }
+              - { label: "Card Profile Role", name: "profileRole", widget: "string" }
+              - { label: "Institution Short Name", name: "institutionShort", widget: "string" }
+              - { label: "Resume PDF File (Upload new PDF)", name: "resumePdf", widget: "file", default: "resume.pdf", required: false }
+
+          - name: "contact"
+            label: "Contact Information"
+            widget: "object"
+            fields:
+              - { label: "Email Address", name: "email", widget: "string" }
+              - { label: "Phone Number", name: "phone", widget: "string" }
+              - { label: "Location", name: "location", widget: "string" }
+
+          - name: "about"
+            label: "About & Education"
+            widget: "object"
+            fields:
+              - { label: "Profile Summary Paragraph 1", name: "summary1", widget: "text" }
+              - { label: "Profile Summary Paragraph 2", name: "summary2", widget: "text" }
+              - name: "languagesSpoken"
+                label: "Languages Spoken"
+                widget: "list"
+                fields:
+                  - { label: "Language", name: "name", widget: "string" }
+                  - { label: "Proficiency Level", name: "proficiency", widget: "string" }
+              - name: "education"
+                label: "Education Details"
+                widget: "object"
+                fields:
+                  - { label: "Degree Title", name: "degree", widget: "string" }
+                  - { label: "Institution Name", name: "institution", widget: "string" }
+                  - { label: "Timeline & Campus Badge", name: "badge", widget: "string" }
+                  - { label: "Specialization Description", name: "description", widget: "text" }
+
+          - name: "experience"
+            label: "Professional Experience"
+            widget: "list"
+            fields:
+              - { label: "Job / Role Title", name: "role", widget: "string" }
+              - { label: "Company / Organization", name: "company", widget: "string" }
+              - { label: "Duration & Location", name: "date", widget: "string" }
+              - { label: "Accomplishment Bullet Points", name: "bullets", widget: "list" }
+              - { label: "Tech Stack Tags", name: "tags", widget: "list" }
+
+          - name: "projects"
+            label: "Featured Projects"
+            widget: "list"
+            fields:
+              - { label: "Category Badge", name: "badge", widget: "string" }
+              - { label: "Project Title", name: "title", widget: "string" }
+              - { label: "Subtitle", name: "subtitle", widget: "string" }
+              - { label: "Project Description", name: "description", widget: "text" }
+              - { label: "Technologies Used (Tags)", name: "tags", widget: "list" }
+              - { label: "Live Demo URL", name: "liveUrl", widget: "string", required: false }
+              - { label: "GitHub Code URL", name: "githubUrl", widget: "string", required: false }
+
+          - name: "skills"
+            label: "Technical Skills Matrix"
+            widget: "object"
+            fields:
+              - name: "programmingLanguages"
+                label: "Programming Languages"
+                widget: "list"
+                fields:
+                  - { label: "Language Name", name: "name", widget: "string" }
+                  - { label: "Proficiency Percentage (e.g. 80%)", name: "progress", widget: "string" }
+              - name: "frontendDevelopment"
+                label: "Frontend & UI Skills"
+                widget: "list"
+                fields:
+                  - { label: "Skill Name", name: "name", widget: "string" }
+                  - { label: "Proficiency Percentage (e.g. 85%)", name: "progress", widget: "string" }
+              - { label: "Tools, Security & Concepts", name: "tools", widget: "list" }

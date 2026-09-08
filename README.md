@@ -34,13 +34,29 @@ A modern, high-performance, cyber-tech glassmorphism portfolio website built for
 
 ```text
 portfolio/
+├── admin/
+│   ├── config.yml    # Decap CMS configuration & Git Gateway schema
+│   └── index.html     # Decap CMS admin dashboard & Identity integration
+├── data/
+│   └── content.json   # Structured portfolio & resume content data
 ├── index.html        # Main HTML structure & semantic layout
 ├── style.css         # Custom CSS design system, themes & animations
-├── script.js        # Pure JavaScript interactivity, typewriter & modals
+├── script.js        # Pure JavaScript interactivity, typewriter, modals & CMS data hydration
 ├── profile.jpg       # Profile picture asset
 ├── resume.pdf        # Downloadable PDF resume asset
 └── README.md         # Documentation & repository overview
 ```
+
+---
+
+## 🎛️ **Decap CMS Content Management**
+
+Manage and update portfolio details and resume content live over the air:
+
+1. Navigate to `/admin` (e.g. `https://portfolio-logamoorthy.netlify.app/admin/`).
+2. Log in using your Netlify Identity account.
+3. Edit your profile, bio, experience, projects, skills, or upload an updated `resume.pdf`.
+4. Click **Publish** — Decap CMS automatically commits the updates to the GitHub repository `main` branch, triggering Netlify to build and update the site live.
 
 ---
 
